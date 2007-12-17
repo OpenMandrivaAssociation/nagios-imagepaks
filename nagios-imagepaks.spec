@@ -15,7 +15,6 @@ Source6:	http://dl.sourceforge.net/nagios/imagepak-werschler.tar.gz
 Source7:	http://glen.alkohol.ee/pld/nagios/imagepak-pld-20050402.4.tar.bz2
 Requires:	nagios-www
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %define		_logodir	%{_datadir}/nagios/images/logos
 
