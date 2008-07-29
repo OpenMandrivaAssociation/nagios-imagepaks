@@ -1,7 +1,7 @@
 Summary:	Nagios Image Packs
 Name:		nagios-imagepaks
 Version:	1.0
-Release:	%mkrel 2
+Release:	%mkrel 4
 License:	Open Source
 Group:		Networking/WWW
 URL:		http://www.nagios.org/download/extras.php
