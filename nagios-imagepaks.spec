@@ -16,7 +16,7 @@ Source7:	http://glen.alkohol.ee/pld/nagios/imagepak-pld-20050402.4.tar.bz2
 Source8:	mandriva.png
 Requires:	nagios-www
 BuildArch:	noarch
-BuildRequires:	ImageMagick
+BuildRequires:	imagemagick
 BuildRequires:	gd-utils
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
