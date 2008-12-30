@@ -1,7 +1,7 @@
 Summary:	Nagios Image Packs
 Name:		nagios-imagepaks
 Version:	1.0
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	Open Source
 Group:		Networking/WWW
 URL:		http://www.nagios.org/download/extras.php
@@ -20,7 +20,7 @@ BuildRequires:	imagemagick
 BuildRequires:	gd-utils
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
-%define		_logodir	%{_datadir}/nagios/images/logos
+%define		_logodir	%{_datadir}/nagios/www/images/logos
 
 %description
 Image packs are provided so that you have some colorful OS and device images to
@@ -52,5 +52,5 @@ pngtogd2  %{SOURCE8} %{buildroot}%{_logodir}/base/mandriva.gd2 0 1
 rm -rf %{buildroot}
 
 %files
-%defattr(0644,root,root,0755)
+%defattr(-,root,root)
 %{_logodir}/*
