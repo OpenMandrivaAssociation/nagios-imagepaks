@@ -1,7 +1,7 @@
 Summary:	Nagios Image Packs
 Name:		nagios-imagepaks
 Version:	1.0
-Release:	%mkrel 6
+Release:	%mkrel 5
 License:	Open Source
 Group:		Networking/WWW
 URL:		http://www.nagios.org/download/extras.php
@@ -54,3 +54,35 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_logodir}/*
+
+
+%changelog
+* Tue Dec 30 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-5mdv2009.1
++ Revision: 321455
+- adaptation for new nagios web files location
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.0-4mdv2009.0
++ Revision: 253547
+- rebuild
+
+* Wed Jan 23 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-2mdv2008.1
++ Revision: 157185
+- add shiny mandriva icon
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Apr 17 2007 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdv2008.0
++ Revision: 13807
+- Import nagios-imagepaks
+
+
+
+* Wed Apr 11 2007 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdv2007.1
+- initial Mandriva package (pld import)
