@@ -4,7 +4,7 @@ Version:	1.0
 Release:	6
 License:	Open Source
 Group:		Networking/WWW
-URL:		http://www.nagios.org/download/extras.php
+URL:		https://www.nagios.org/download/extras.php
 Source0:	http://dl.sourceforge.net/nagios/imagepak-base.tar.gz
 Source1:	http://dl.sourceforge.net/nagios/imagepak-bernhard.tar.gz
 Source2:	http://dl.sourceforge.net/nagios/imagepak-cook.tar.gz
